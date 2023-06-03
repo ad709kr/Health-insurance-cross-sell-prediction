@@ -2,7 +2,7 @@
 Our client is an Insurance company that has provided Health Insurance to its customers now they need your help in building a model to predict whether the policyholders (customers) from past year will also be interested in Vehicle Insurance provided by the company.
 
 An insurance policy is an arrangement by which a company undertakes to provide a guarantee of compensation for specified loss, damage, illness, or death in return for the payment of a specified premium. A premium is a sum of money that the customer needs to pay regularly to an insurance company for this guarantee. Just like medical insurance, there is vehicle insurance where every year customer needs to pay a premium of certain amount to insurance provider company so that in case of unfortunate accident by the vehicle, the insurance provider company will provide a compensation (called ‘sum assured’) to the customer.
-## Problem Statement
+## Objective
 Building a model to predict whether a customer would be interested in Vehicle Insurance or not. It will be extremely helpful for the company because it can then accordingly plan its communication strategy to reach out to those customers and optimise its business model and revenue.
 
 ### Data Description
@@ -30,6 +30,14 @@ PolicySalesChannel : Anonymized Code for the channel of outreaching to the custo
 Vintage : Number of Days, Customer has been associated with the company
 
 Response : 1 - Customer is interested, 0 - Customer is not interested
+## Approach 
+In this project, these are the steps that we followed:
+step 1 - Data loading
+step 2 - Data cleaning and data wrangling
+step 3 - Exploratory data analysis (univariate, Bivariate and multivariate analysis)
+step 4 -  Performed one hot encoding, Response coding for categorical feature and Normalization, Standardization for numerical data.
+step 5 - Model training with hyperparameter tuning.
+step 6 - Saving the model using joblib
 ### conclusion
 For determining the cross sell Prediction we started with the exploratory data analysis , data transformation, and then model training. The following conclusion were made from this project is:
 
